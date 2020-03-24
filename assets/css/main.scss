@@ -14,7 +14,7 @@ $highlight: #FFEC5C;
 // FONTS
 $serif: "Noto Serif","Segoe UI","Helvetica Neue",Helvetica,Roboto,FreeSans,serif;
 $sans-serif: "Noto Sans","Segoe UI","Helvetica Neue",Helvetica,Roboto,FreeSans,sans-serif;
-$code: Menlo,Monaco,"Courier New",monospace;
+$code: "Cascadia Code","PT Mono",Monaco,"Courier New",monospace;
 
 /* SASS IMPORT ========================================================================== */
 
@@ -246,6 +246,10 @@ table {
     padding: 0.5em 1em;
     border: 1px double $gray-table-border;
   }
+}
+
+img {
+  max-width: 100%;
 }
 
 // TOP NAV
